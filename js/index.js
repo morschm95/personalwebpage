@@ -1,0 +1,41 @@
+$(function() {
+	// Navbars
+	$('#navbar-div').load('header.html');
+	// About me
+	$('#about-me').load('../descriptions/about-me.html #about-me');
+	$('#resume-line').load('../descriptions/about-me.html #resume-line');
+	$('#my-skills').load('../descriptions/about-me.html #my-skills');
+	// Projects
+	$('#project-ad-converter-title').load('../descriptions/project-info.html #project-ad-converter-title');
+	$('#project-ad-converter-info').load('../descriptions/project-info.html #project-ad-converter-info');
+	$('#project-ad-converter-course').load('../descriptions/project-info.html #project-ad-converter-course');
+	$('#project-ad-converter-date').load('../descriptions/project-info.html #project-ad-converter-date');
+	$('#project-ad-converter-figure-1-caption').load('../descriptions/project-info.html #project-ad-converter-figure-1-caption');
+	$('#project-ad-converter-figure-2-caption').load('../descriptions/project-info.html #project-ad-converter-figure-2-caption');
+	$('#project-ad-converter-figure-3-caption').load('../descriptions/project-info.html #project-ad-converter-figure-3-caption');
+	$('#project-database-title').load('../descriptions/project-info.html #project-database-title');
+	$('#project-database-course').load('../descriptions/project-info.html #project-database-course');
+	$('#project-database-date').load('../descriptions/project-info.html #project-database-date');
+	$('#project-database-info').load('../descriptions/project-info.html #project-database-info');	
+	$('#project-cgs-title').load('../descriptions/project-info.html #project-cgs-title');
+	$('#project-cgs-course').load('../descriptions/project-info.html #project-cgs-course');
+	$('#project-cgs-date').load('../descriptions/project-info.html #project-cgs-date');
+	$('#project-cgs-info').load('../descriptions/project-info.html #project-cgs-info');	
+	$('#project-laser-harp-title').load('../descriptions/project-info.html #project-laser-harp-title');
+	$('#project-laser-harp-course').load('../descriptions/project-info.html #project-laser-harp-course');
+	$('#project-laser-harp-date').load('../descriptions/project-info.html #project-laser-harp-date');
+	$('#project-laser-harp-info').load('../descriptions/project-info.html #project-laser-harp-info');	
+    // Work
+    $('#hc1-work').load('../descriptions/work-info.html #hc1-work');
+	$('#hc1-work-title').load('../descriptions/work-info.html #hc1-work-title');
+	$('#hc1-work-date').load('../descriptions/work-info.html #hc1-work-date');
+    $('#hc1-work-info').load('../descriptions/work-info.html #hc1-work-info');
+    $('#nextgear-work').load('../descriptions/work-info.html #nextgear-work');
+	$('#nextgear-work-title').load('../descriptions/work-info.html #nextgear-work-title');
+	$('#nextgear-work-date').load('../descriptions/work-info.html #nextgear-work-date');
+	$('#nextgear-work-info').load('../descriptions/work-info.html #nextgear-work-info');
+	$('#scotts-work').load('../descriptions/work-info.html #scotts-work');
+	$('#scotts-work-title').load('../descriptions/work-info.html #scotts-work-title');
+	$('#scotts-work-date').load('../descriptions/work-info.html #scotts-work-date');
+	$('#scotts-work-info').load('../descriptions/work-info.html #scotts-work-info');
+});

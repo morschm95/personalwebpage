@@ -1,0 +1,9 @@
+body {
+	background-image: url('../files/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#welcome {
+    text-align: center;
+}
