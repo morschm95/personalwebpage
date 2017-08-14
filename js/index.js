@@ -5,6 +5,7 @@ $(function() {
 	$('#about-me').load('../descriptions/about-me.html #about-me');
 	$('#resume-line').load('../descriptions/about-me.html #resume-line');
 	$('#my-skills').load('../descriptions/about-me.html #my-skills');
+	$('#my-activities').load('../descriptions/about-me.html #my-activities');
 	// Projects
 	$('#project-ad-converter-title').load('../descriptions/project-info.html #project-ad-converter-title');
 	$('#project-ad-converter-info').load('../descriptions/project-info.html #project-ad-converter-info');
