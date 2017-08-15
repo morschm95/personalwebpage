@@ -19,10 +19,10 @@
     <script src="../js/index.js"></script>
     <!-- Nav CSS -->
     <link rel='stylesheet' href='../css/nav.css'>
-    <!-- About CSS -->
-    <link rel='stylesheet' href='../css/about.css'>
-    <!-- About JS -->
-    <script src="../js/about.js"></script>
+    <!-- Contact CSS -->
+    <link rel='stylesheet' href='../css/contact.css'>
+    <!-- Contact JS -->
+    <script src="../js/contact.js"></script>
 </head>
 
 <body ng-app="experience" ng-controller="webpage-ctrl">
@@ -40,26 +40,24 @@
             <div class="collapse navbar-collapse" id="navbar-collapse-id">
                 <ul class="nav navbar-nav">
                     <li><a href="home.html">Home</a></li>
-                    <li class="active"><a href="about.html">About Me</a></li>
+                    <li><a href="about.html">About Me</a></li>
                     <li><a href="experience.html">Experience</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
+                    <li class="active"><a href="contact.html">Contact Me</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <h1 class="about-me title"> About Me </h1>
-    <span class="background">
-        <img class="profile-picture" src="../files/me_picture.jpg" />
-        <span id="about-me"></span>
-        <span id="resume-line"></span>
-    </span>
+    <div class="contact">
+        <h1 class="contact-text"> Thank you for visiting my webpage </h1>
+        <h1 class="contact-text"> 
+            If you have any comments, questions or would like to get in contact with me, feel free to contact me via LinkedIn or at my 
+            <a href="mailto:mattmorscher@gmail.com?Subject=Webpage" target="_top">email</a>
+        </h1>
 
-    <h1 class="title title-later"> My Skills </h1>
-    <span id="my-skills"></span>
-
-    <h1 class="title title-later"> Activities </h1>
-    <span id="my-activities"></span>
+        <div class="email">
+        </div>
+    </div>
 
 </body>
 
